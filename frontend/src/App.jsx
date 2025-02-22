@@ -21,7 +21,7 @@ const App = () => {
     checkAuth()
   }, [checkAuth]);
 
-  console.log({authUser})
+  //console.log({authUser})
 
   if(isCheckingAuth && !authUser) return (
     <span className="loading loading-spinner text-primary"></span>
